@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devansh Kuraria — Java Backend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Scroll progress -->
+<div class="progress-bar" id="progressBar"></div>
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursor"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">D</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire Me</button>
+</header>
+
+<!-- SIDEBARS -->
+<div class="social-links">
+  <a href="mailto:devanshkuraria22@gmail.com">Email</a>
+  <a href="https://github.com/Devansh220805">GitHub</a>
+  <a href="https://www.linkedin.com/in/devansh-882311327/">LinkedIn</a>
+</div>
+<div class="email-link">
+  <a href="mailto:devanshkuraria22@gmail.com">devanshkuraria22@gmail.com</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Hello, I'm Devansh 👋</div>
+    <h1 class="hero-name">Devansh</h1>
+    <h2 class="hero-role">BCA Student</span></h2>
+    <p class="hero-desc">Passionate about building efficient, scalable backend systems. Currently pursuing BCA while mastering Java Full Stack — turning ideas into reliable software.</p>
+    <div class="hero-btns">
+      <button class="btn btn-solid" onclick="window.open('#')">Download CV ↓</button>
+      <button class="btn" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View Projects</button>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-img-wrap">
+      <img src="Images/profile.jpeg" alt="Devansh Kuraria">
+      <div class="status-badge">
+        <div class="status-dot"></div>
+        Available for projects
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<div class="about-strip" id="about">
+  <div class="about-inner">
+    <div class="about-text reveal">
+      <div class="section-label">About Me</div>
+      <h2 style="font-family:'Syne',sans-serif;font-size:28px;font-weight:700;color:var(--white);margin-bottom:20px;">Building the backend, one commit at a time.</h2>
+      <p>I'm a BCA student based in <span>Delhi, India</span>, deeply invested in backend development with Java. I enjoy solving real-world problems through clean, efficient code.</p>
+      <p>My journey started with frontend technologies — HTML, CSS, JavaScript — and I've been steadily expanding into <span>Java Full Stack development</span>, with MySQL as my go-to database.</p>
+      <p>When I'm not coding, I explore SEO optimization and WordPress — always looking for ways to make the web faster and better.</p>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat-item">
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Languages Learned</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">2+</div>
+        <div class="stat-label">Years of Learning</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="section-label">What I Do</div>
+  <h2 class="section-title">Services</h2>
+  <p class="section-sub">From pixel-perfect frontends to structured backend logic — here's how I can help bring your project to life.</p>
+  <div class="services-grid reveal">
+    <div class="service-card">
+      <span class="service-icon">🎨</span>
+      <h3>Frontend Development</h3>
+      <p>Responsive, modern websites using HTML, CSS, and JavaScript. Clean structure, smooth interactions, and mobile-first layouts that work on any device.</p>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🔁</span>
+      <h3>UI Cloning & Recreation</h3>
+      <p>Pixel-accurate recreation of existing web interfaces — Amazon, e-commerce stores, and landing pages — for practice, presentation, or templates.</p>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">⚙️</span>
+      <h3>Java Backend Basics</h3>
+      <p>Foundational backend logic using Java — building REST-oriented structures, data processing, and database integration with MySQL.</p>
+    </div>
+    <div class="service-card">
+      <span class="service-icon">🔍</span>
+      <h3>SEO Optimization</h3>
+      <p>On-page SEO audits and improvements — meta tags, page speed, semantic HTML, and WordPress optimization for better search visibility.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section" style="background:var(--navy2); max-width:none; border-top:1px solid rgba(100,255,218,0.05); border-bottom:1px solid rgba(100,255,218,0.05);">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="section-label">Tech Stack</div>
+    <h2 class="section-title">Skills & Tools</h2>
+    <p class="section-sub">Technologies I work with, grouped by category.</p>
+    <div class="skills-container reveal">
+
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <div class="skill-icon">💻</div>
+          <h3>Languages</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Java</span>
+          <span class="tag">C</span>
+        </div>
+        <div class="skill-bar-list" style="margin-top:20px;">
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>HTML & CSS</span><span>85%</span></div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" data-w="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>JavaScript</span><span>40%</span></div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" data-w="40"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>Java</span><span>50%</span></div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" data-w="50"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-top"><span>C</span><span>45%</span></div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" data-w="45"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <div class="skill-icon">🗄️</div>
+          <h3>Database</h3>
+        </div>
+        <div class="skill-tags" style="margin-bottom:20px;">
+          <span class="tag">MySQL</span>
+          <span class="tag">SQL Queries</span>
+          <span class="tag">CRUD Ops</span>
+        </div>
+        <div class="skill-card-header" style="margin-top:16px;">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">SEO</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Git</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <div class="skill-icon">📚</div>
+          <h3>Currently Learning</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="tag">Java Full Stack</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">JDBC</span>
+          <span class="tag">Hibernate</span>
+          <span class="tag">React Basics</span>
+        </div>
+        <p style="color:var(--slate);font-size:13px;margin-top:20px;line-height:1.7;">Actively building toward a full-stack Java role. Every day is a new concept, a new commit, a new skill.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="section-label">My Work</div>
+  <h2 class="section-title">Projects</h2>
+  <p class="section-sub">A selection of things I've built while learning — more on the way.</p>
+  <div class="projects-grid reveal">
+
+    <div class="project-card">
+      <div class="project-img-wrap">
+        <div class="project-placeholder"><img src="Images/BookNest.png" alt="BookNest"></div>
+        <div class="project-overlay">
+          <a href="https://github.com/Devansh220805/BookNest"><button class="project-overlay-btn">View Code</button></a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-header">
+          <h3>BookNest</h3>
+        </div>
+        <p>A clean and minimal book discovery website created with HTML and CSS. As one of my first projects, it focuses on typography, layout structure, and user-friendly browsing. The site is static and currently optimized for desktop viewing, showcasing my early journey into front-end development.</p>
+        <div class="project-stack">
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">Flexbox</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img-wrap">
+        <div class="project-placeholder"><img src="Images/Percentag-to-CGPA.png" alt="Percentag-to-CGPA"></div>
+        <div class="project-overlay">
+          <a href="https://github.com/Devansh220805/Percentage-To-CGPA-Calculator"><button class="project-overlay-btn">View Code</button></a>
+          <a href="https://percentage-to-cgpa-calculator.netlify.app/"><button class="project-overlay-btn">Live Demo</button></a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-header">
+          <h3>CGPA Calculator</h3>
+        </div>
+        <p>An interactive CGPA calculator for BCA students. Enter your grades and credits, get instant results. Built with vanilla JS — zero dependencies, zero libraries.</p>
+        <div class="project-stack">
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img-wrap">
+        <div class="project-placeholder"><img src="Images/amazon.png" alt="Amazon"></div>
+        <div class="project-overlay">
+          <a href="https://github.com/Devansh220805/Amazon-Clone" ><button class="project-overlay-btn">View Code</button></a>
+          <a href="https://amazon-clone-by-devansh.netlify.app/"><button class="project-overlay-btn">Live Demo</button></a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-header">
+          <h3>Amazon Clone</h3>
+        </div>
+        <p>A high-fidelity frontend clone of Amazon's homepage, replicating the navigation bar, hero carousel, product grids, and footer with precision.</p>
+        <div class="project-stack">
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">UI Clone</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section" style="background:var(--navy2); max-width:none; border-top:1px solid rgba(100,255,218,0.05);">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">Contact Me</h2>
+    <p class="section-sub">Open to internships, freelance projects, and collaborations. Let's build something together.</p>
+
+    <div class="contact-wrapper reveal">
+      <div class="contact-info">
+        <h3>Let's talk.</h3>
+        <p>Whether you have a project in mind, want to discuss tech, or just say hello — my inbox is always open.</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-item-text">
+            <span class="contact-item-label">Phone</span>
+            <span class="contact-item-value">+91 8130386840</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-item-text">
+            <span class="contact-item-label">Email</span>
+            <span class="contact-item-value">devanshkuraria22@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <span class="contact-item-label">Location</span>
+            <span class="contact-item-value">Delhi, India</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div id="form-success" style="display:none; text-align:center; padding:40px 20px;">
+          <div style="font-size:48px; margin-bottom:16px;">✅</div>
+          <h3 style="font-family:'Syne',sans-serif; color:var(--white); margin-bottom:10px;">Message Sent!</h3>
+          <p style="color:var(--slate);">Thanks for reaching out. I'll get back to you soon.</p>
+          <button class="btn" style="margin-top:20px;" onclick="resetForm()">Send Another →</button>
+        </div>
+        <div id="form-error" style="display:none; background:rgba(255,80,80,0.1); border:1px solid rgba(255,80,80,0.3); border-radius:8px; padding:14px 18px; margin-bottom:16px; color:#ff6b6b; font-size:14px;">
+          ⚠️ Something went wrong. Please try again or email me directly.
+        </div>
+        <div id="form-fields">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="from_name">Full Name</label>
+              <input type="text" id="from_name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="from_email">Email</label>
+              <input type="email" id="from_email" placeholder="your@email.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project / Opportunity / Hello" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button class="btn btn-solid" id="send-btn" style="width:100%;padding:14px;" onclick="sendEmail()">
+            Send Message →
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Devansh. All rights reserved.</p>
+</footer>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
